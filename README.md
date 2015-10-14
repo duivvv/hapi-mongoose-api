@@ -61,6 +61,34 @@ module.exports = {
 
 ```
 
+this only creates a model (no API)
+
+```javascript
+
+/* filename: Student.js */
+
+'use strict';
+
+module.exports = {
+
+  schema: {
+    studentId: String,
+    feedback: String,
+    created: {
+      type: Date,
+      default: Date.now
+    },
+    active: {
+      type: Boolean,
+      default: true
+    }
+  }
+
+};
+
+
+```
+
 ## api?
 
 if you set the variable api to true, this plugin creates api routes for your mongoose models
