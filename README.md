@@ -74,8 +74,6 @@ TODO: UPDATE
 
 ### filtering
 
-you can use filters a querystring
-
 example:
 
 ```
@@ -83,8 +81,6 @@ GET /api/students/?age=20&gender=male
 ```
 
 ### sorting
-
-you can sort using a querystring
 
 example:
 
